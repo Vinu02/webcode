@@ -1,0 +1,56 @@
+body {
+    color: rgb(116, 193, 203);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+  
+  .heading-container {
+    text-align: center;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #28334AFF 0%, rgb(92, 103, 126));
+    font-size: 2em;
+  }
+  
+ 
+  
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 1em;
+    padding: 0.5em;
+    margin: 0 auto;
+    background: linear-gradient(to bottom,#FBDE44FF 0%,rgb(252, 217, 43));
+  }
+  
+  .container {
+    background-color: #28334AFF;
+    padding: 1px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    gap: 1em;
+  }
+
+  
+  
+  p{
+    padding: 12px 40px 12px;
+  }
+  
+  
+  a{
+    color:  rgb(0, 0, 0);
+    
+  }
+  
+  @media (max-width:500px){
+    .heading-container{ 
+      background: linear-gradient(to bottom, #28334AFF 0%, rgb(92, 103, 126));
+    }
+    .container{
+      background-color: #FBDE44FF,;
+      color:#28334AFF;
+    }
+  }
